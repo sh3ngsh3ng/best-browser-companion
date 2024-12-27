@@ -1,0 +1,18 @@
+{
+    "name": "Best Browser Companion",
+    "description": "Decoding the Internet for You",
+    "version": "1.0",
+    "manifest_version": 3,
+    "side_panel": {
+        "default_path": "sidepanel.html"
+    },
+    "permissions": [
+        "sidePanel"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "host_permissions": [
+        "http://localhost/*"
+    ]
+}
